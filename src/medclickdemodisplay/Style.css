@@ -1,0 +1,59 @@
+/*
+ * Empty Stylesheet file.
+ */
+.button{
+    -fx-background-color:  #72CA8E;
+}
+
+.button:hover{
+    -fx-background-color:  #9cd9af;
+}
+
+.button:pressed{
+    -fx-background-color:  #4f8d63;
+}
+
+.rcorners1 {
+  -fx-border-radius: 25px;
+}
+
+.table-view{
+    -fx-background-radius: 15px;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: #F2FAF5;
+    -fx-background-radius: 15px 15px 0px 0px;
+}
+ 
+.table-view .column-header, .table-view.filler{
+    -fx-background-color: transparent;
+    -fx-size: 35;
+}
+
+.pane{
+    -fx-background-radius: 15px 15px 0px 0px;
+    -fx-background-color: #5ba171;
+}
+
+.stack-pane{
+    -fx-background-radius: 15px;
+    -fx-background-color:  #4f8d63;
+    -fx-border-radius: 15px;
+}
+
+.grid-pane{
+    -fx-background-radius: 15px;
+    -fx-border-radius: 15px;
+}
+
+.menuItem:hover{
+    -fx-border-color: #660099;
+    -fx-border-width: 0px 0px 3px 0px;
+}
+
+.sidebarItem:hover{
+    -fx-background-color: #146886;
+    -fx-border-color: WHITE;
+    -fx-border-width: 0px 0px 0px 3px;
+}
